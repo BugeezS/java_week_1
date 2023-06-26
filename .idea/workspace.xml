@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31f58614-6c90-4c1e-a620-9805014071bd" name="Changes" comment="add structure">
-      <change afterPath="$PROJECT_DIR$/src/ObjectDataTypesExample.java" afterDir="false" />
+    <list default="true" id="31f58614-6c90-4c1e-a620-9805014071bd" name="Changes" comment="add object">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PrimitiveDataTypesExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrimitiveDataTypesExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +62,23 @@
       <option name="project" value="LOCAL" />
       <updated>1687768397964</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add object">
+      <option name="closed" value="true" />
+      <created>1687773230031</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1687773230031</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add object">
+      <option name="closed" value="true" />
+      <created>1687773237534</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1687773237534</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -80,6 +94,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="add structure" />
+    <MESSAGE value="add object" />
+    <option name="LAST_COMMIT_MESSAGE" value="add object" />
   </component>
 </project>
