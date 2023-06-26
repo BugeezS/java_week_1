@@ -31,5 +31,6 @@ public class PrimitiveDataTypesExample {
         // Char
         char myChar = 'A';
         System.out.println("Char example: " + myChar);
+
     }
 }
