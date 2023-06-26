@@ -18,7 +18,7 @@ public class RandomIntArrayExample {
         Random random = new Random();
 
         for(int i = 0; i < maxSize; i++) {
-            array[i] = random.nextInt(100);
+            array[i] = random.nextInt(10);
         }
         return array;
     }
