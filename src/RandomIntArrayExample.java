@@ -3,10 +3,12 @@ import java.util.Random;
 public class RandomIntArrayExample {
     public static void  main (String[] args) {
         int maxSize = 10;
+        int upperLimit = 10;
+
         int[] randomArray = generateRandomArray(maxSize);
         System.out.println("Random Array: ");
         for (int num : randomArray){
-            if(num < 10){
+            if(num < upperLimit){
                 System.out.println(num);
             }
         }
