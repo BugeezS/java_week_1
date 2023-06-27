@@ -13,6 +13,8 @@ public class RandomIntArrayExample {
             }
         }
     }
+
+    //Generate a random array of non-primitive integers
     private static int[] generateRandomArray(int maxSize){
         int [] array = new int[maxSize];
         Random random = new Random();
