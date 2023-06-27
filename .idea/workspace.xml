@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31f58614-6c90-4c1e-a620-9805014071bd" name="Changes" comment="add division array">
-      <change afterPath="$PROJECT_DIR$/src/FileReading.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test.txt" afterDir="false" />
+    <list default="true" id="31f58614-6c90-4c1e-a620-9805014071bd" name="Changes" comment="add FileReading.java">
+      <change afterPath="$PROJECT_DIR$/src/ReadMe.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -150,7 +149,15 @@
       <option name="project" value="LOCAL" />
       <updated>1687852004557</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="add FileReading.java">
+      <option name="closed" value="true" />
+      <created>1687858271705</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1687858271705</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -169,6 +176,7 @@
     <MESSAGE value="add object" />
     <MESSAGE value="add array" />
     <MESSAGE value="add division array" />
-    <option name="LAST_COMMIT_MESSAGE" value="add division array" />
+    <MESSAGE value="add FileReading.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="add FileReading.java" />
   </component>
 </project>
