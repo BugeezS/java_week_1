@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31f58614-6c90-4c1e-a620-9805014071bd" name="Changes" comment="add CountingLetters.java">
-      <change afterPath="$PROJECT_DIR$/src/CSVLine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CSVReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CSVReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CSVReader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +26,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectId" id="2RjeBpE7kleAJsZbHlrpRdfQ5yL" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -43,6 +44,10 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "/home/bruno/IdeaProjects/java_week_1",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "onboarding.tips.debug.path": "/home/bruno/IdeaProjects/java_week_1/src/Main.java",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
@@ -51,7 +56,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.FileReading">
+  <component name="RunManager">
     <configuration name="CountingLetters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CountingLetters" />
       <module name="java_week_1" />
@@ -81,7 +86,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1687767787305</updated>
-      <workItem from="1687875300060" duration="48000" />
+      <workItem from="1687875300060" duration="106000" />
+      <workItem from="1687875413276" duration="1093000" />
     </task>
     <task id="LOCAL-00001" summary="add structure">
       <option name="closed" value="true" />
@@ -203,7 +209,15 @@
       <option name="project" value="LOCAL" />
       <updated>1687867095141</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="add CountingLetters.java">
+      <option name="closed" value="true" />
+      <created>1687875372470</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1687875372470</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

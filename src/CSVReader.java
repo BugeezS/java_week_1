@@ -19,24 +19,30 @@ public class CSVReader {
             System.out.println("File not found: " + filePath);
         }
     }
-    private static List<CSVLine> readCSVFile(String filePath) throws FileNotFoundException{
+    private static List<CSVLine> readCSVFile(String filePath) throws FileNotFoundException {
         List<CSVLine> csvLines = new ArrayList<>();
 
         File file = new File(filePath);
         Scanner scanner = new Scanner(file);
 
-        while (scanner.hasNextLine()){
+        while (scanner.hasNextLine()) {
             String line = scanner.nextLine();
-            String[] data = line.split("'");
+            String[] data = line.split(",");
 
-            String name = data[0];
-            String age = data[1];
-            String city = data [2];
+            // Ensure the array has enough elements
+            if (data.length >= 3) {
+                String name = data[0];
+                String age = data[1];
+                String city = data[2];
 
-            CSVLine csvLine = new CSVLine (name,age,city);
-            csvLines.add(csvLine);
+                CSVLine csvLine = new CSVLine(name, age, city);
+                csvLines.add(csvLine);
+            }
         }
+
         scanner.close();
+
         return csvLines;
     }
+
 }
