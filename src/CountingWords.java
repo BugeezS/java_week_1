@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-public class FileReading {
+public class CountingWords {
     public static void main(String[] args){
         String filepath = "src/test.txt";
 

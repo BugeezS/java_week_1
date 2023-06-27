@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31f58614-6c90-4c1e-a620-9805014071bd" name="Changes" comment="add FileReading.java">
-      <change afterPath="$PROJECT_DIR$/src/ReadMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="31f58614-6c90-4c1e-a620-9805014071bd" name="Changes" comment="add Readme" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +19,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2RjeBpE7kleAJsZbHlrpRdfQ5yL" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -157,7 +157,15 @@
       <option name="project" value="LOCAL" />
       <updated>1687858271705</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="add Readme">
+      <option name="closed" value="true" />
+      <created>1687859017162</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1687859017162</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -177,6 +185,7 @@
     <MESSAGE value="add array" />
     <MESSAGE value="add division array" />
     <MESSAGE value="add FileReading.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="add FileReading.java" />
+    <MESSAGE value="add Readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Readme" />
   </component>
 </project>
