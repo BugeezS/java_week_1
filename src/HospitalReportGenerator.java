@@ -42,7 +42,7 @@ public class HospitalReportGenerator {
 }
 
 class HospitalData{
-    private Map<LocalDate,DailyData> dataMap;
+    private final Map<LocalDate,DailyData> dataMap;
 
     public HospitalData(){
         dataMap= new HashMap<>();
@@ -63,9 +63,9 @@ class HospitalData{
 }
 
 class DailyData {
-    private int  cardiologyCount;
-    private int  radiologyCount;
-    private int visitingCount;
+    private final int  cardiologyCount;
+    private final int  radiologyCount;
+    private final int visitingCount;
 
     public DailyData( int cardiologyCount, int radiologyCount, int visitingCount){
         this.cardiologyCount = cardiologyCount;
@@ -88,7 +88,7 @@ class DailyData {
 }
 
 class DailyReport {
-    private HospitalData hospitalData;
+    private final HospitalData hospitalData;
 
     public DailyReport(HospitalData hospitalData) {
         this.hospitalData = hospitalData;
@@ -112,7 +112,7 @@ class DailyReport {
 }
 
 class MonthlyReport {
-    private HospitalData hospitalData;
+    private final HospitalData hospitalData;
 
     public MonthlyReport(HospitalData hospitalData) {
         this.hospitalData = hospitalData;
