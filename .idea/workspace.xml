@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31f58614-6c90-4c1e-a620-9805014071bd" name="Changes" comment="add HospitalReportGenerator">
+    <list default="true" id="31f58614-6c90-4c1e-a620-9805014071bd" name="Changes" comment="add GenerateFile">
+      <change afterPath="$PROJECT_DIR$/src/GenerateFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HospitalReportGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HospitalReportGenerator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +90,7 @@
       <workItem from="1687875413276" duration="1853000" />
       <workItem from="1687936565685" duration="9037000" />
       <workItem from="1688018115755" duration="1187000" />
-      <workItem from="1688021695563" duration="759000" />
+      <workItem from="1688021695563" duration="8963000" />
     </task>
     <task id="LOCAL-00001" summary="add structure">
       <option name="closed" value="true" />
@@ -244,7 +244,15 @@
       <option name="project" value="LOCAL" />
       <updated>1688018428964</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="add HospitalReportGenerator">
+      <option name="closed" value="true" />
+      <created>1688022786858</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1688022786858</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,6 +279,7 @@
     <MESSAGE value="add CountingLetters.java" />
     <MESSAGE value="add CSVReader.java" />
     <MESSAGE value="add HospitalReportGenerator" />
-    <option name="LAST_COMMIT_MESSAGE" value="add HospitalReportGenerator" />
+    <MESSAGE value="add GenerateFile" />
+    <option name="LAST_COMMIT_MESSAGE" value="add GenerateFile" />
   </component>
 </project>
