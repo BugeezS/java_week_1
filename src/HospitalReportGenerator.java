@@ -8,7 +8,7 @@ import java.util.Map;
 public class HospitalReportGenerator {
     public static void main (String[] args) {
         //Read the CSV file
-        HospitalData hospitalData = readCSVFile("hospital_data.csv");
+        HospitalData hospitalData = readCSVFile("src/hospital_data.csv");
 
         //Generate daily report
         DailyReport dailyreport = new DailyReport(hospitalData);
@@ -24,6 +24,8 @@ public class HospitalReportGenerator {
 
         try (BufferedReader br = new BufferedReader(new FileReader(filename))){
             String line;
+            //Skip the leader line
+            br.readLine();
             while ((line = br.readLine()) != null) {
                 String[] fields = line.split(",");
 
@@ -62,29 +64,7 @@ class HospitalData{
     }
 }
 
-class DailyData {
-    private final int  cardiologyCount;
-    private final int  radiologyCount;
-    private final int visitingCount;
-
-    public DailyData( int cardiologyCount, int radiologyCount, int visitingCount){
-        this.cardiologyCount = cardiologyCount;
-        this.radiologyCount = radiologyCount;
-        this.visitingCount = visitingCount;
-    }
-
-    public int getCardiologyCount() {
-        return cardiologyCount;
-
-    }
-
-    public int getRadiologyCount() {
-        return radiologyCount;
-    }
-
-    public int getVisitingCount() {
-        return visitingCount;
-    }
+record DailyData(int cardiologyCount, int radiologyCount, int visitingCount) {
 }
 
 class DailyReport {
@@ -100,9 +80,9 @@ class DailyReport {
                 DailyData dailyData = hospitalData.getEntry(date);
 
                 writer.write("Date: " + date.toString() + "\n");
-                writer.write("Cardiology Count: " + dailyData.getCardiologyCount() + "\n");
-                writer.write("Radiology Count: " + dailyData.getRadiologyCount() + "\n");
-                writer.write("Visiting Count: " + dailyData.getVisitingCount() + "\n");
+                writer.write("Cardiology Count: " + dailyData.cardiologyCount() + "\n");
+                writer.write("Radiology Count: " + dailyData.radiologyCount() + "\n");
+                writer.write("Visiting Count: " + dailyData.visitingCount() + "\n");
                 writer.write("\n");
             }
         } catch (IOException e) {
@@ -126,9 +106,9 @@ class MonthlyReport {
                 int visitingCount = 0;
 
                 for (DailyData dailyData : hospitalData.getDataMap().values()) {
-                    cardiologyCount += dailyData.getCardiologyCount();
-                    radiologyCount += dailyData.getRadiologyCount();
-                    visitingCount += dailyData.getVisitingCount();
+                    cardiologyCount += dailyData.cardiologyCount();
+                    radiologyCount += dailyData.radiologyCount();
+                    visitingCount += dailyData.visitingCount();
                 }
 
                 writer.write("Month: " + month.toString() + "\n");

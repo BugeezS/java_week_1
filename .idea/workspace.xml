@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31f58614-6c90-4c1e-a620-9805014071bd" name="Changes" comment="add CSVReader.java">
-      <change afterPath="$PROJECT_DIR$/src/HospitalReportGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hospital_data.csv" afterDir="false" />
+    <list default="true" id="31f58614-6c90-4c1e-a620-9805014071bd" name="Changes" comment="add HospitalReportGenerator">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HospitalReportGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HospitalReportGenerator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +27,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2RjeBpE7kleAJsZbHlrpRdfQ5yL" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -57,7 +56,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.CountingLetters">
+  <component name="RunManager">
     <configuration name="CountingLetters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CountingLetters" />
       <module name="java_week_1" />
@@ -74,8 +73,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FileReading" />
         <item itemvalue="Application.CountingLetters" />
+        <item itemvalue="Application.FileReading" />
       </list>
     </recent_temporary>
   </component>
@@ -90,6 +89,8 @@
       <workItem from="1687875300060" duration="106000" />
       <workItem from="1687875413276" duration="1853000" />
       <workItem from="1687936565685" duration="9037000" />
+      <workItem from="1688018115755" duration="1187000" />
+      <workItem from="1688021695563" duration="759000" />
     </task>
     <task id="LOCAL-00001" summary="add structure">
       <option name="closed" value="true" />
@@ -227,7 +228,23 @@
       <option name="project" value="LOCAL" />
       <updated>1687876560501</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="add HospitalReportGenerator">
+      <option name="closed" value="true" />
+      <created>1688018156786</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1688018156786</updated>
+    </task>
+    <task id="LOCAL-00019" summary="add HospitalReportGenerator">
+      <option name="closed" value="true" />
+      <created>1688018428964</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1688018428964</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,6 +270,7 @@
     <MESSAGE value="add Readme" />
     <MESSAGE value="add CountingLetters.java" />
     <MESSAGE value="add CSVReader.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="add CSVReader.java" />
+    <MESSAGE value="add HospitalReportGenerator" />
+    <option name="LAST_COMMIT_MESSAGE" value="add HospitalReportGenerator" />
   </component>
 </project>
